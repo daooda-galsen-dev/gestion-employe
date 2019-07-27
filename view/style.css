@@ -1,0 +1,234 @@
+/*DAOUDA BA*/
+
+/* Couleurs utilisées
+#f2f2f2
+#5FDD9D
+#ccc
+#dddddd
+#000
+*/
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('green.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+	background-size: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5.5%;
+    margin-bottom: 2%;
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+#mat {
+    width: 50%;
+    padding: 12px;
+    background-color: #dddddd;                                                                                                                                                                                                                                          
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+    outline: none;
+}
+input[type=text]{
+    width: 50%;
+    padding: 12px;                                                                                                                                                                                                                                              
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+}
+input[type=submit] {
+    margin-top: 2%;
+    background-color: #5FDD9D;
+    font-weight: bold;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 37.5%;
+    margin-left: 25%;
+}
+input[type=submit]:hover {
+    background-color: #4CAF50;
+}
+
+.copy {
+    font-size: 12px;
+    color: #5FDD9D;
+    font-weight: bold;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+} 
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+} 
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+table {
+    margin-top: 4%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+} 
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.retour {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #5FDD9D;
+    height: 30px;
+    width: 100px;
+    margin-top: 10%;
+    margin-left: 45%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+.retour:hover {
+    background-color: #4CAF50;
+}
+.rt {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+
+.alt{
+    position: absolute;
+    border: 1px solid red;
+    text-align: center;
+    width: 22%;
+    top: 71.5%;
+    right: 15%;
+    height: 5%;
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    border-radius: 4px;
+}
+.alt-PR{
+    position: absolute;
+    border: 1px solid red;
+    text-align: center;
+    width: 18%;
+    top: 25%;
+    right: 16%;
+    height: 4%;
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+    border-radius: 4px;
+}
+.alt-NM{
+    position: absolute;
+    border: 1px solid red;
+    text-align: center;
+    width: 18%;
+    top: 32%;
+    right: 16%;
+    height: 4%;
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+    border-radius: 4px;
+}
+.alt-DT{
+    position: absolute;
+    border: 1px solid red;
+    text-align: center;
+    width: 22%;
+    top: 39.5%;
+    right: 14%;
+    height: 4%;
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+    border-radius: 4px;
+}
+.alt-SL{
+    position: absolute;
+    border: 1px solid red;
+    text-align: center;
+    width: 22%;
+    top: 47.5%;
+    right: 14%;
+    height: 4%;
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+    border-radius: 4px;
+}
+.alt-NU{
+    position: absolute;
+    border: 1px solid red;
+    text-align: center;
+    width: 22%;
+    top: 55%;
+    right: 14%;
+    height: 4%;
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+    border-radius: 4px;
+}
+.alt-EM{
+    position: absolute;
+    border: 1px solid red;
+    text-align: center;
+    width: 22%;
+    top: 62%;
+    right: 14%;
+    height: 4%;
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+    border-radius: 4px;
+}
